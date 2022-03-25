@@ -44,9 +44,9 @@
                   <v-icon color="#A7121D" x-large class="ml-3"
                     >mdi-book-open-page-variant</v-icon
                   >
-                  <h3 class="white--text ml-3 mt-4">Branding</h3>
-                  <p class="grey--text ml-3 mt-6">aaaa</p>
-                  <v-btn dark text>
+                  <h3 class="white--text ml-3 mt-4">Tests</h3>
+                  <p class="grey--text ml-3 mt-6">Unit and integration</p>
+                  <v-btn color="#A7121D" dark text>
                     Know more
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>

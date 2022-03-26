@@ -7,7 +7,7 @@
           <v-img src="../assets/home.png" container max-height="500"></v-img>
         </v-col>
         <v-col cols="6">
-          <h4 class="red--text text-darken-4 top">Hello, Im Lucas</h4>
+          <h4 class="red--text text-darken-4 top">Hello, Im Lucas 👋</h4>
           <h1 class="white--text">Developer web</h1>
           <p class="grey--text">
             Front end developer focused on user experience and modern interface
@@ -138,7 +138,7 @@
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
-        <v-col cols="12" class="padd topInverse">
+        <v-col cols="12" class="padd topInverse rounded-xl">
           <div class="second">
             <div class="secondchild1" id="contact">
               <v-row>

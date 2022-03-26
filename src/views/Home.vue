@@ -121,6 +121,23 @@
             ></v-img>
           </v-card>
         </v-col>
+        <v-col md="3" offset-md="3">
+          <v-btn color="white" dark text class="ml-n4"> buypizza </v-btn><br />
+
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
+        <v-col md="3">
+          <v-btn color="white" dark text class="ml-n4"> StockTrader </v-btn
+          ><br />
+
+          <v-btn color="#A7121D" dark text class="ml-n4">
+            know more
+            <v-icon right>mdi-arrow-right</v-icon>
+          </v-btn>
+        </v-col>
         <v-col cols="12" class="padd topInverse">
           <div class="second">
             <div class="secondchild1" id="contact">

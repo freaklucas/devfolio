@@ -143,12 +143,12 @@
             <div class="secondchild1" id="contact">
               <v-row>
                 <v-col cols="7">
-                  <h1 class="white--text">
-                    lets work together on <br />
-                    your next project
-                  </h1>
+                  <h1 class="white--text">Meet projects</h1>
                   <br />
-                  <p class="grey--text">aaaaaaaaaaaa</p>
+                  <p class="grey--text">
+                    🚀 Projects developed with Javascript, Typescript, React,
+                    Vue, Node
+                  </p>
                 </v-col>
                 <v-col cols="5">
                   <v-btn tile color="#A7121D" dark class="mt-16">
@@ -159,7 +159,12 @@
             </div>
           </div>
           <v-toolbar class="topTolbar" color="#11111" dark flat>
-            <div></div>
+            <div class="content-bar">
+              <v-btn text>Home</v-btn>
+              <v-btn text>Project</v-btn>
+              <v-btn text>About</v-btn>
+              <v-btn text>Contact</v-btn>
+            </div>
           </v-toolbar>
         </v-col>
       </v-row>
@@ -260,7 +265,12 @@ h1.number {
   font-weight: bold;
 }
 
-.spacing {
-  /* margin-top: 20px; */
+.content-bar {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 </style>

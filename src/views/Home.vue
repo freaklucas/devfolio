@@ -85,7 +85,7 @@
                     </v-col>
                     <v-col cols="12" class="childcol">
                       <div class="child2 padding bgColor1">
-                        <h1 class="red--text text--darken-4">4</h1>
+                        <h1 class="red--text text--darken-4">4+</h1>
                         <p class="grey--text">Experience with algorithms</p>
                       </div>
                     </v-col>
@@ -94,6 +94,56 @@
               </v-col>
             </v-row>
           </div>
+        </v-col>
+        <v-col md="3" offset-md="3" id="about">
+          <h2 class="white--text">Developed features</h2>
+          <p class="grey--text"></p>
+        </v-col>
+        <v-col md="3" class="text-end">
+          <v-btn tile color="#A7121D" class="spacing" dark>View all</v-btn>
+        </v-col>
+        <v-col md="3" offset-md="3">
+          <v-card class="pa py-12" outlined tile height="240px" color="#1E1E1E">
+            <v-img
+              src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?cs=srgb&dl=pexels-sydney-troxell-708587.jpg&fm=jpg"
+              contain
+              max-height=""
+            >
+            </v-img>
+          </v-card>
+        </v-col>
+        <v-col md="3">
+          <v-card class="pa py-12" outlined tile height="240px" color="#1E1E1E">
+            <v-img
+              src="https://images.pexels.com/photos/7567440/pexels-photo-7567440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              contain
+              max-height=""
+            ></v-img>
+          </v-card>
+        </v-col>
+        <v-col cols="12" class="padd topInverse">
+          <div class="second">
+            <div class="secondchild1" id="contact">
+              <v-row>
+                <v-col cols="7">
+                  <h1 class="white--text">
+                    lets work together on <br />
+                    your next project
+                  </h1>
+                  <br />
+                  <p class="grey--text">aaaaaaaaaaaa</p>
+                </v-col>
+                <v-col cols="5">
+                  <v-btn tile color="#A7121D" dark class="mt-16">
+                    Contact me
+                  </v-btn>
+                </v-col>
+              </v-row>
+            </div>
+          </div>
+          <v-toolbar class="topTolbar" color="#11111" dark flat>
+            <div></div>
+          </v-toolbar>
         </v-col>
       </v-row>
     </v-container>
@@ -138,6 +188,7 @@ export default {
   background: #181818;
   text-align: center;
   padding: 2rem 2rem;
+  margin-top: 20px;
 }
 .secondchild1 {
   display: inline-block;
@@ -190,5 +241,9 @@ export default {
 h1.number {
   font-size: 50px;
   font-weight: bold;
+}
+
+.spacing {
+  /* margin-top: 20px; */
 }
 </style>

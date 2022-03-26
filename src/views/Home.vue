@@ -138,13 +138,12 @@
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
-        <v-col cols="12" class="padd topInverse rounded-xl">
+        <v-col cols="12" class="padd topInverse">
           <div class="second">
             <div class="secondchild1" id="contact">
               <v-row>
                 <v-col cols="7">
                   <h1 class="white--text">Meet projects</h1>
-                  <br />
                   <p class="grey--text">
                     🚀 Projects developed with Javascript, Typescript, React,
                     Vue, Node
@@ -158,7 +157,7 @@
               </v-row>
             </div>
           </div>
-          <v-toolbar class="topTolbar" color="#11111" dark flat>
+          <v-toolbar class="topTolbar" color="#111111" dark flat>
             <div class="content-bar">
               <v-btn text>Home</v-btn>
               <v-btn text>Project</v-btn>
@@ -169,14 +168,17 @@
         </v-col>
       </v-row>
     </v-container>
+    <Footer />
   </v-app>
 </template>
 
 <script>
 import Navbar from "../components/Navbar.vue";
+import Footer from "../components/Footer.vue";
 export default {
   components: {
     Navbar,
+    Footer,
   },
 };
 </script>

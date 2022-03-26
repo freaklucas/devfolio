@@ -15,7 +15,7 @@
           </v-card-text>
         </v-col>
         <v-col cols="12" sm="4">
-          <v-card-text class="white--text pt-2">
+          <v-card-text class="pt-2">
             <v-btn
               v-for="icon in icons"
               :key="icon"
@@ -42,7 +42,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => ({
+    icons: ["mdi-linkedin", "mdi-instagram", "mdi-github"],
+  }),
+};
 </script>
 
 <style>

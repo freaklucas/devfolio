@@ -1,10 +1,13 @@
 <template>
-  <v-app :style="{ background: $vuetify.theme.themes.dark.background }">
+  <v-app
+    id="home"
+    :style="{ background: $vuetify.theme.themes.dark.background }"
+  >
     <Navbar />
     <v-container fluid>
       <v-row>
         <v-col cols="6">
-          <v-img src="../assets/home.png" container max-height="500"></v-img>
+          <v-img src="../assets/home.png" container max-height="400"></v-img>
         </v-col>
         <v-col cols="6">
           <h4 class="red--text text-darken-4 top">Hello, Im Lucas 👋</h4>
@@ -12,7 +15,6 @@
           <p class="grey--text">
             Front end developer focused on user experience and modern interface
             building.
-            <br />
           </p>
           <v-btn tile color="#A7121D" dark>about me</v-btn>
         </v-col>
@@ -54,7 +56,7 @@
                   </v-btn>
                 </div>
               </v-col>
-              <v-col cols="12" class="mt-10">
+              <v-col cols="12" class="mt-8">
                 <div class="child1">
                   <h1 class="red--text text-darken mt-4 number">...3</h1>
                   <h3 class="white--text mt-4">Years experience</h3>

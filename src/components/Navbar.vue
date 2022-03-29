@@ -14,7 +14,7 @@
 export default {
   methods: {
     scroll(refName) {
-      const element = this.getElementById(refName);
+      const element = document.getElementById(refName);
       element.scrollIntroView({ behaviour: "smooth" });
     },
   },

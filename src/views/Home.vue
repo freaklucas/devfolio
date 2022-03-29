@@ -5,9 +5,15 @@
   >
     <Navbar />
     <v-container fluid>
-      <v-row>
+      <v-row lg="12" xl="12" sm="1">
         <v-col cols="6">
-          <v-img src="../assets/coding.svg" container max-height="380"></v-img>
+          <v-img
+            xs="d-none"
+            src="../assets/setup.svg"
+            container
+            max-height="528"
+            max-width="600"
+          ></v-img>
         </v-col>
         <v-col cols="6">
           <h4 class="red--text text-darken-4 top">Hello, Im Lucas 👋</h4>
@@ -63,7 +69,7 @@
                 </div>
                 <div class="child2 mRight">
                   <v-row>
-                    <v-col cols="12" class="childcol">
+                    <v-col cols="12" xs="12" class="childcol">
                       <div class="child2 mButton padding bgColor1">
                         <h1 class="red--text text--darken-4">10+</h1>
                         <p class="grey--text">Developed projects</p>
@@ -185,6 +191,8 @@ export default {
 };
 </script>
 <style scoped>
+* {
+}
 .top {
   margin-top: 180px;
 }

@@ -7,7 +7,7 @@
     <v-container fluid>
       <v-row>
         <v-col cols="6">
-          <v-img src="../assets/home.png" container max-height="400"></v-img>
+          <v-img src="../assets/coding.svg" container max-height="380"></v-img>
         </v-col>
         <v-col cols="6">
           <h4 class="red--text text-darken-4 top">Hello, Im Lucas 👋</h4>

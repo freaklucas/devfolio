@@ -157,24 +157,19 @@
           <div class="second">
             <div class="secondchild1" id="contact">
               <v-row>
-                <v-col cols="7">
+                <v-col cols="12">
                   <h1 class="white--text">Meet projects</h1>
                   <p class="grey--text">
-                    🚀 Javascript, Typescript, React, Vue, Node
-                    <br />
+                    🚀 Javascript, Typescript, React.js, Vue.js, Node.js,
+                    Tailwindcss, Cypress, Jest <br />
                   </p>
-                </v-col>
-                <v-col cols="5">
-                  <v-btn tile color="#A7121D" dark class="mt-16">
-                    Contact me
-                  </v-btn>
                 </v-col>
               </v-row>
             </div>
           </div>
           <v-toolbar class="topTolbar" color="#111111" dark flat>
             <div class="content-bar">
-              <v-btn text>Home</v-btn>
+              <v-btn text href="/" target="">Home</v-btn>
               <v-btn text>Project</v-btn>
               <v-btn text>About</v-btn>
               <v-btn text>Contact</v-btn>

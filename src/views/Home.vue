@@ -7,13 +7,13 @@
     <v-container fluid>
       <v-row lg="12" xl="12" sm="1">
         <v-col cols="6">
-          <v-img
+          <!-- <v-img
             xs="d-none"
             src="../assets/setup.svg"
             container
             max-height="528"
             max-width="600"
-          ></v-img>
+          ></v-img> -->
         </v-col>
         <v-col cols="6">
           <h4 class="red--text text-darken-4 top">Hello, Im Lucas 👋</h4>
@@ -27,15 +27,13 @@
         <v-col cols="12" class="padd">
           <div class="first" id="project">
             <v-row>
-              <v-col cols="12">
+              <v-col cols="12" col-sm="6" col-xs="6">
                 <div class="child bgColor1">
                   <v-icon color="#A7121D" x-large class="ml-3">
                     mdi-palette-swatch
                   </v-icon>
                   <h3 class="white--text ml-3 mt-4">Front-end</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    Scalable applications modern
-                  </p>
+                  <p class="grey--text ml-3 mt-6">Application modern</p>
                   <v-btn color="#A7121D" dark text>
                     Know more
                     <v-icon right>mdi-arrow-right</v-icon>
@@ -44,7 +42,7 @@
                 <div class="child bgColor2">
                   <v-icon x-large class="ml-3" dark> mdi-shopping </v-icon>
                   <h3 class="white--text ml-3 mt-4">Design</h3>
-                  <p class="grey--text ml-3 mt-6">User experience UI/UX</p>
+                  <p class="grey--text ml-3 mt-6">User experience</p>
                   <v-btn dark text>
                     Know more
                     <v-icon right>mdi-arrow-right</v-icon>
@@ -55,14 +53,14 @@
                     >mdi-book-open-page-variant</v-icon
                   >
                   <h3 class="white--text ml-3 mt-4">Tests</h3>
-                  <p class="grey--text ml-3 mt-6">Tests unit and integration</p>
+                  <p class="grey--text ml-3 mt-6">Tests unit</p>
                   <v-btn color="#A7121D" dark text>
                     Know more
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
               </v-col>
-              <v-col cols="12" class="mt-8">
+              <v-col cols="12" col-sm="6" col-xs="6" class="mt-8">
                 <div class="child1">
                   <h1 class="red--text text-darken mt-4 number">...3</h1>
                   <h3 class="white--text mt-4">Years experience</h3>
@@ -103,24 +101,23 @@
             </v-row>
           </div>
         </v-col>
-        <v-col md="3" offset-md="3" id="about">
+        <!-- <v-col md="3" offset-md="3" id="about">
           <h2 class="white--text">Developed features</h2>
           <p class="grey--text"></p>
         </v-col>
         <v-col md="3" class="text-end">
           <v-btn tile color="#A7121D" class="spacing" dark>View all</v-btn>
-        </v-col>
+        </v-col> -->
         <v-col md="3" offset-md="3">
           <v-card class="pa py-12" outlined tile height="240px" color="#1E1E1E">
             <v-img
               src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?cs=srgb&dl=pexels-sydney-troxell-708587.jpg&fm=jpg"
               contain
-              max-height=""
             >
             </v-img>
           </v-card>
         </v-col>
-        <v-col md="3">
+        <v-col md="3" xs="6">
           <v-card class="pa py-12" outlined tile height="240px" color="#1E1E1E">
             <v-img
               src="https://images.pexels.com/photos/7567440/pexels-photo-7567440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -129,7 +126,7 @@
             ></v-img>
           </v-card>
         </v-col>
-        <v-col md="3" offset-md="3">
+        <v-col md="3" xs="6" offset-md="3">
           <v-btn color="white" dark text class="ml-n4"> buypizza </v-btn><br />
 
           <v-btn color="#A7121D" dark text class="ml-n4">
@@ -137,7 +134,7 @@
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
-        <v-col md="3">
+        <v-col md="3" xs="6">
           <v-btn color="white" dark text class="ml-n4"> StockTrader </v-btn
           ><br />
 
@@ -146,7 +143,7 @@
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
-        <v-col cols="12" class="padd topInverse">
+        <v-col cols="12" xs="6" class="padd topInverse">
           <div class="second">
             <div class="secondchild1" id="contact">
               <v-row>
@@ -155,6 +152,7 @@
                   <p class="grey--text">
                     🚀 Projects developed with Javascript, Typescript, React,
                     Vue, Node
+                    <br />
                   </p>
                 </v-col>
                 <v-col cols="5">
@@ -183,6 +181,7 @@
 <script>
 import Navbar from "../components/Navbar.vue";
 import Footer from "../components/Footer.vue";
+
 export default {
   components: {
     Navbar,

@@ -4,6 +4,10 @@ import store from "./store";
 import vuetify from "./plugins/vuetify";
 import router from "./router";
 
+import VueParticlesBg from "particles-bg-vue";
+
+Vue.use(VueParticlesBg);
+
 Vue.config.productionTip = false;
 
 new Vue({

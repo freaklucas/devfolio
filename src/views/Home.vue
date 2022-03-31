@@ -48,7 +48,7 @@
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
-                <div class="child bgColor1">
+                <div class="child bgColor1" v-show="!$vuetify.breakpoint.xs">
                   <v-icon color="#A7121D" x-large class="ml-3"
                     >mdi-book-open-page-variant</v-icon
                   >
@@ -102,9 +102,15 @@
           </div>
         </v-col>
         <v-col md="3" sm="3" xs="3" offset-md="3">
-          <v-card class="pa" outlined tile max-height="240px" color="#1E1E1E">
+          <v-card
+            class="pa rounded"
+            outlined
+            tile
+            max-height="240px"
+            color="#1E1E1E"
+          >
             <v-img
-              src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?cs=srgb&dl=pexels-sydney-troxell-708587.jpg&fm=jpg"
+              src="https://princesafm.com.br/wp-content/uploads/2021/10/depositphotos_50523105-stock-photo-pizza-with-tomatoes.jpg"
               contain
             >
             </v-img>
@@ -113,27 +119,17 @@
         <v-col md="3" sm="3" xs="3">
           <v-card class="pa" outlined tile max-height="240px" color="#1E1E1E">
             <v-img
-              src="https://images.pexels.com/photos/7567440/pexels-photo-7567440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://capitalizo.com.br/wp-content/uploads/2021/06/deletar.jpg"
               contain
             ></v-img>
+            <br />
           </v-card>
         </v-col>
         <v-col md="3" sm="3" xs="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-4"> buypizza </v-btn><br />
-
-          <v-btn color="#A7121D" dark text class="ml-4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
+          <v-btn color="white" dark text class="ml-4"> buypizza </v-btn>
         </v-col>
         <v-col md="3" xs="6">
-          <v-btn color="white" dark text class="ml-4"> StockTrader </v-btn
-          ><br />
-
-          <v-btn color="#A7121D" dark text class="ml-4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
+          <v-btn color="white" dark text class="ml-4"> StockTrader </v-btn>
         </v-col>
         <v-col cols="12" xs="6" class="padd topInverse">
           <div class="second">

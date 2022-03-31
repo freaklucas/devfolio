@@ -110,26 +110,48 @@
             color="#1E1E1E"
           >
             <v-img
-              src="https://princesafm.com.br/wp-content/uploads/2021/10/depositphotos_50523105-stock-photo-pizza-with-tomatoes.jpg"
+              src="https://i.pinimg.com/originals/75/0e/a6/750ea6c63a69882e5a0f3892de04e9b4.jpg"
               contain
             >
             </v-img>
           </v-card>
         </v-col>
         <v-col md="3" sm="3" xs="3">
-          <v-card class="pa" outlined tile max-height="240px" color="#1E1E1E">
+          <v-card
+            class="pa rounded"
+            outlined
+            tile
+            max-height="240px"
+            color="#1E1E1E"
+          >
             <v-img
               src="https://capitalizo.com.br/wp-content/uploads/2021/06/deletar.jpg"
               contain
             ></v-img>
-            <br />
           </v-card>
         </v-col>
         <v-col md="3" sm="3" xs="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-4"> buypizza </v-btn>
+          <v-btn
+            color="white"
+            dark
+            text
+            class="ml-4"
+            href="https://github.com/freaklucas/buypizza"
+            target="_blank"
+          >
+            buypizza
+          </v-btn>
         </v-col>
-        <v-col md="3" xs="6">
-          <v-btn color="white" dark text class="ml-4"> StockTrader </v-btn>
+        <v-col md="3" xs="3">
+          <v-btn
+            color="white"
+            dark
+            text
+            class="ml-4"
+            href="https://github.com/freaklucas/stock-trader"
+          >
+            StockTrader
+          </v-btn>
         </v-col>
         <v-col cols="12" xs="6" class="padd topInverse">
           <div class="second">

@@ -9,7 +9,7 @@
         <v-col cols="6">
           <v-img
             xs="d-none"
-            src="../assets/setup.svg"
+            src="../assets/mobile.svg"
             container
             max-height="528"
             max-width="600"

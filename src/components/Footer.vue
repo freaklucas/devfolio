@@ -17,14 +17,20 @@
         <v-col cols="12" sm="4">
           <v-card-text class="pt-2">
             <v-btn
-              v-for="icon in icons"
-              :key="icon"
               class="mx-1 white--text"
+              href="https://www.linkedin.com/in/freaklucas/"
+              target="_blank"
               icon
             >
-              <v-icon size="24px">
-                {{ icon }}
-              </v-icon>
+              <v-icon size="24px"> mdi-linkedin </v-icon>
+            </v-btn>
+            <v-btn
+              class="mx-1 white--text"
+              href="https://github.com/freaklucas"
+              target="_blank"
+              icon
+            >
+              <v-icon size="24px"> mdi-github </v-icon>
             </v-btn>
           </v-card-text>
         </v-col>
@@ -42,9 +48,5 @@
 </template>
 
 <script>
-export default {
-  data: () => ({
-    icons: ["mdi-linkedin", "mdi-instagram", "mdi-github"],
-  }),
-};
+export default {};
 </script>

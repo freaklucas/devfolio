@@ -5,15 +5,15 @@
   >
     <Navbar />
     <v-container fluid>
-      <v-row lg="12" xl="12" sm="1">
+      <v-row>
         <v-col cols="6">
-          <!-- <v-img
+          <v-img
             xs="d-none"
             src="../assets/setup.svg"
             container
             max-height="528"
             max-width="600"
-          ></v-img> -->
+          ></v-img>
         </v-col>
         <v-col cols="6">
           <h4 class="red--text text-darken-4 top">Hello, Im Lucas 👋</h4>
@@ -101,15 +101,8 @@
             </v-row>
           </div>
         </v-col>
-        <!-- <v-col md="3" offset-md="3" id="about">
-          <h2 class="white--text">Developed features</h2>
-          <p class="grey--text"></p>
-        </v-col>
-        <v-col md="3" class="text-end">
-          <v-btn tile color="#A7121D" class="spacing" dark>View all</v-btn>
-        </v-col> -->
-        <v-col md="3" offset-md="3">
-          <v-card class="pa py-12" outlined tile height="240px" color="#1E1E1E">
+        <v-col md="3" sm="3" xs="3" offset-md="3">
+          <v-card class="pa" outlined tile max-height="240px" color="#1E1E1E">
             <v-img
               src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?cs=srgb&dl=pexels-sydney-troxell-708587.jpg&fm=jpg"
               contain
@@ -117,28 +110,27 @@
             </v-img>
           </v-card>
         </v-col>
-        <v-col md="3" xs="6">
-          <v-card class="pa py-12" outlined tile height="240px" color="#1E1E1E">
+        <v-col md="3" sm="3" xs="3">
+          <v-card class="pa" outlined tile max-height="240px" color="#1E1E1E">
             <v-img
               src="https://images.pexels.com/photos/7567440/pexels-photo-7567440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               contain
-              max-height=""
             ></v-img>
           </v-card>
         </v-col>
-        <v-col md="3" xs="6" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> buypizza </v-btn><br />
+        <v-col md="3" sm="3" xs="3" offset-md="3">
+          <v-btn color="white" dark text class="ml-4"> buypizza </v-btn><br />
 
-          <v-btn color="#A7121D" dark text class="ml-n4">
+          <v-btn color="#A7121D" dark text class="ml-4">
             know more
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
         </v-col>
         <v-col md="3" xs="6">
-          <v-btn color="white" dark text class="ml-n4"> StockTrader </v-btn
+          <v-btn color="white" dark text class="ml-4"> StockTrader </v-btn
           ><br />
 
-          <v-btn color="#A7121D" dark text class="ml-n4">
+          <v-btn color="#A7121D" dark text class="ml-4">
             know more
             <v-icon right>mdi-arrow-right</v-icon>
           </v-btn>
@@ -150,8 +142,7 @@
                 <v-col cols="7">
                   <h1 class="white--text">Meet projects</h1>
                   <p class="grey--text">
-                    🚀 Projects developed with Javascript, Typescript, React,
-                    Vue, Node
+                    🚀 Javascript, Typescript, React, Vue, Node
                     <br />
                   </p>
                 </v-col>

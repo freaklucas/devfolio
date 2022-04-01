@@ -8,7 +8,7 @@
     <v-btn text @click="scroll('about')">about</v-btn>
     <v-btn text @click="scroll('contact')"> contact</v-btn>
   </v-app-bar>
-</template>
+</template> 
 
 <script>
 export default {

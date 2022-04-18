@@ -16,7 +16,9 @@
           ></v-img>
         </v-col>
         <v-col cols="6">
-          <h4 class="red--text text-darken-4 top">Hello, Im Lucas 👋</h4>
+          <h4 class="red--text text-darken-4 top">
+            Hello, Im Lucas Oliveira 🇧🇷
+          </h4>
 
           <h1 class="white--text">Developer web</h1>
           <p class="grey--text">
